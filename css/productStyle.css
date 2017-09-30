@@ -1,0 +1,142 @@
+.productList {
+    height: 632px;
+    width: 993px;
+    position: absolute;
+    bottom: 0;
+    left: 233px;
+    overflow: hidden;
+}
+
+.productList li {
+    float: left;
+    width: 233px;
+    height: 300px;
+    margin-top: 15px;
+    text-align: center;
+    background: #fff;
+    -webkit-transition: all .6s;
+    transition: all .6s;
+    margin-left: 15px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.2s;
+}
+
+.flagLi {
+    margin-left: 0px!important;
+}
+
+
+/* 明星产品和为你推 */
+
+.shift {
+    border: 1px solid #dcdcdc;
+    width: 38px;
+    height: 22px;
+    color: #dcdcdc;
+    font-size: 12px;
+    line-height: 22px;
+    margin: 13px 0;
+    float: right;
+    text-align: center;
+    cursor: pointer;
+}
+
+.shift:hover {
+    color: #999;
+}
+
+.oneUl {
+    height: 320px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.oneUl li {
+    float: left;
+    width: 233px;
+    height: 320px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    text-align: center;
+    background: #fff;
+    -webkit-transition: all .6s;
+    transition: all .6s;
+    margin-left: 15px;
+}
+
+
+/* 区块标题 */
+
+.title {
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 30px;
+    color: #333;
+    float: left;
+    margin: 10px 0;
+}
+
+
+/* ///////商品信息 */
+
+.productImg {
+    width: 160px;
+    height: 160px;
+    margin: 10px auto;
+    margin-top: 30px;
+}
+
+p {
+    text-align: center;
+}
+
+.productName {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.desc {
+    margin: 0 20px 12px;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    _zoom: 1;
+    color: #b0b0b0;
+}
+
+.productPrice {
+    color: #ff6709;
+}
+
+
+/* //新品 打折标签 */
+
+.tag {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -32px;
+    width: 64px;
+    height: 22px;
+    background: #e53935;
+    color: #fff;
+    text-align: center;
+    line-height: 22px;
+    font-size: 12px;
+}
+
+.tag_new {
+    background: #83c44e;
+}
+
+
+/* 侧边图片 */
+
+.smartImg {
+    width: 233px;
+    height: 300px;
+}
